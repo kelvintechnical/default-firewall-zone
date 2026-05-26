@@ -1,11 +1,11 @@
 # Lab: Changing the Default Firewall Zone — Global Default + NIC Trust
 
-**Series:** linux-ops-mastery — RHCSA Firewall
-**Subjects covered:** Default zone semantics, `firewall-cmd --get-default-zone`, `--set-default-zone`, moving an interface from `public` to `dmz` or `internal` with `--change-interface`, verifying with `--get-active-zones`, runtime vs permanent preview (`--permanent` flags named but full persistence pattern in Lab 61)
-**Career arcs covered:** RHCSA (EX200 loves “set default zone to …”), RHCE (playbook idempotency around defaults), SRE (hardening baselines), DevOps (immutable infra still boots with a default), AI/MLOps (segmenting admin from data NIC defaults)
-**Prerequisite:** Lab **firewalld-zones** (vocabulary) or equivalent comfort listing zones
-**Time Estimate:** 30 to 45 minutes
-**Difficulty arc:** Task 1 snapshot active state · 2–3 move NIC trust · 4 change global default · 5 verify services inherited · 6 capstone + full revert
+- **Series:** linux-ops-mastery — RHCSA Firewall
+- **Subjects covered:** Default zone semantics, `firewall-cmd --get-default-zone`, `--set-default-zone`, moving an interface from `public` to `dmz` or `internal` with `--change-interface`, verifying with `--get-active-zones`, runtime vs permanent preview (`--permanent` flags named but full persistence pattern in Lab 61)
+- **Career arcs covered:** RHCSA (EX200 loves “set default zone to …”), RHCE (playbook idempotency around defaults), SRE (hardening baselines), DevOps (immutable infra still boots with a default), AI/MLOps (segmenting admin from data NIC defaults)
+- **Prerequisite:** Lab **firewalld-zones** (vocabulary) or equivalent comfort listing zones
+- **Time Estimate:** 30 to 45 minutes
+- **Difficulty arc:** Task 1 snapshot active state · 2–3 move NIC trust · 4 change global default · 5 verify services inherited · 6 capstone + full revert
 
 ---
 
